@@ -1,0 +1,65 @@
+body{
+  font-family: Arial;
+}
+.head{
+  text-align:center;
+  color: black;
+}
+
+
+.container{
+  display:flex;
+  gap:20px;
+  justify-content:center;
+  flex-wrap: wrap;
+}
+
+
+.card{
+
+  width:200px;
+  padding:20px;
+
+  /* border:1px solid black; */
+  background-color: #0d1f22;
+
+  border-radius:10px;
+  color: white;
+
+  text-align:center;
+  box-shadow: 0 0  10px gainsboro;
+
+
+}
+
+
+.card img{
+
+  width:100%;
+  height:180px;
+
+  object-fit:cover;
+
+  border-radius:48%;
+
+}
+
+
+.card button{
+
+  background:white;
+
+  padding:10px 20px;
+
+  border:none;
+
+  border-radius:5px;
+
+  cursor:pointer;
+  
+
+
+}
+.card button:hover{
+  background-color: yellow;
+}
